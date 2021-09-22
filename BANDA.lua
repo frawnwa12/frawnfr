@@ -5860,7 +5860,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر البوت عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1967887608) then  
@@ -5876,11 +5876,11 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج فرعو
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 database:sadd(bot_id..'GBan:User', result.sender_user_id_)
@@ -5922,7 +5922,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا يمكنك حظر المطور الاسا
 return false 
 end
 if result.id_ == tonumber(SUDO) then
-send(msg.chat_id_, msg.id_, " ◍ لا يمكنك حظر مبرمج السورس \n")
+send(msg.chat_id_, msg.id_, " ◍ لا يمكنك حظرمالك السورس \n")
 return false 
 end
 if result.id_ == tonumber(1967887608) then
@@ -5938,11 +5938,11 @@ send(msg.chat_id_, msg.id_, "  لا يمكنك حظر المبرمج فرعون 
 return false 
 end
 if result.id_ == tonumber(SUDO) then
-send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر مبرمج السورس \n")
+send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظرمالك السورس \n")
 return false 
 end
 if result.id_ == tonumber(SUDO) then
-send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر مبرمج السورس \n")
+send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظرمالك السورس \n")
 return false 
 end
 usertext = '\n ◍ الـعـضو   ⇠ ['..result.title_..'](t.me/'..(username or 'E_V_EN')..')'
@@ -5978,7 +5978,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر البوت عام")
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 if tonumber(userid) == tonumber(1967887608) then  
@@ -5994,11 +5994,11 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرالمبرمج فرعو�
 return false 
 end
 if tonumber(userid) == tonumber(SUDU) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 database:sadd(bot_id..'GBan:User', userid)
@@ -6035,7 +6035,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم البوت عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتممالك السورس عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1967887608) then  
@@ -6051,11 +6051,11 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج فرعو
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 database:sadd(bot_id..'Gmute:User', result.sender_user_id_)
@@ -6096,7 +6096,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم المطور الاسا
 return false 
 end
 if result.id_ == tonumber(SUDO) then
-send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم مبرمج السورس \n")
+send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتممالك السورس \n")
 return false 
 end
 if result.id_ == tonumber(1967887608) then
@@ -6112,11 +6112,11 @@ send(msg.chat_id_, msg.id_, "  لا يمكنك حظر المبرمج فرعون 
 return false 
 end
 if result.id_ == tonumber(SUDO) then
-send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر مبرمج السورس \n")
+send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظرمالك السورس \n")
 return false 
 end
 if result.id_ == tonumber(SUDO) then
-send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر مبرمج السورس \n")
+send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظرمالك السورس \n")
 return false 
 end
 usertext = '\n ◍ الـعـضو   ⇠ ['..result.title_..'](t.me/'..(username or 'E_V_EN')..')'
@@ -6152,7 +6152,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم البوت عام")
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتممالك السورس عام")
 return false 
 end
 if tonumber(userid) == tonumber(1967887608) then  
@@ -6168,11 +6168,11 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج فرعو
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 if tonumber(userid) == tonumber(SDUO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرمالك السورس عام")
 return false 
 end
 database:sadd(bot_id..'Gmute:User', userid)
