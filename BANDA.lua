@@ -314,9 +314,9 @@ if tonumber(user_id) == tonumber(SUDO) then
 var = true 
 elseif tonumber(user_id) == tonumber(1967887608) then
 var = true  
-elseif tonumber(user_id) == tonumber(SUDO) then
-var = true  
 elseif tonumber(user_id) == tonumber(1970574026) then
+var = true  
+elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true
@@ -356,9 +356,9 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(SUDO) then  
+if tonumber(user_id) == tonumber(1967887608) then  
 var = 'المبرمج فرعون الكبير  '
-elseif tonumber(user_id) == tonumber(1967887608) then
+elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'مالك السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المبرمج فودكا'
