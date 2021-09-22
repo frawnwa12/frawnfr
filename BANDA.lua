@@ -3436,7 +3436,7 @@ end
 return false
 end
 os.execute('rm -rf BANDA.lua')
-os.execute('wget https://raw.githubusercontent.com/Vklkk/as/main/BANDA.lua')
+os.execute('wget https://raw.github.com/frawnwa12/frawnfr/main/BANDA.lua')
 send(msg.chat_id_, msg.id_,' ◍ تم تحديث السورس')
 dofile('BANDA.lua')  
 end
