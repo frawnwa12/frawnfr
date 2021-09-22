@@ -361,12 +361,6 @@ var = 'المبرمج فرعون الكبير  '
 elseif tonumber(user_id) == tonumber(1967887608) then
 var = 'مالك السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
-var = 'المبرمج فودكا'
-elseif tonumber(user_id) == tonumber(SUDO) then
-var = 'المبرمج فرعون الكبير'
-elseif tonumber(user_id) == tonumber(SUDO) then
-var = 'مالك السورس'
-elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
 var = "المطور الثانوي"  
@@ -1810,7 +1804,7 @@ echo '⩹━━━━◍𝗦𝗢𝗨𝗥𝗖𝗘 𝗙𝗥𝗔𝗪𝗡◍━━�
 end
 if text == 'تحديث السورس ' and Debn(msg) then 
 os.execute('rm -rf BANDA.lua')
-os.execute('wget https://raw.githubusercontent.com/Vklkk/as/main/BANDA.lua')
+os.execute('wget https://raw.github.com/frawnwa12/frawnfr/main/BANDA.lua')
 send(msg.chat_id_, msg.id_,' ◍ تم تحديث السورس')
 dofile('BANDA.lua')  
 end
@@ -5871,7 +5865,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مالك السورس �
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج فودكا مينفعش يكسمك عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المطور الاساسي مينفعش يكسمك عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
@@ -5933,7 +5927,7 @@ send(msg.chat_id_, msg.id_, "  لا يمكنك حظر مالك السورس \n")
 return false 
 end
 if result.id_ == tonumber(SUDO) then
-send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر المبرمج فودكا مينفعش يكسمك \n")
+send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر المطور الاساسي مينفعش يكسمك \n")
 return false 
 end
 if result.id_ == tonumber(SUDO) then
@@ -5989,7 +5983,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مالك السورس �
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج فودكا مينفعش يكسمك عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المطور الاساسي مينفعش يكسمك عام")
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
@@ -6046,7 +6040,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مالك السورس �
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المبرمج فودكا مينفعش يكسمك عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المطور الاساسي مينفعش يكسمك عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
@@ -6107,7 +6101,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم مالك السورس \
 return false 
 end
 if result.id_ == tonumber(SUDO) then
-send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم المبرمج فودكا مينفعش يكسمك  \n")
+send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم المطور الاساسي مينفعش يكسمك  \n")
 return false 
 end
 if result.id_ == tonumber(SUDO) then
@@ -6163,7 +6157,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مالك السورس �
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المبرمج فودكا مينفعش يكسمك عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المطور الاساسي مينفعش يكسمك عام")
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
