@@ -2000,12 +2000,12 @@ end
 if text == 'مبرمج السورس' and Debn(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-「المبرمج استروكس لو حابب تتواصل معاه
+「المبرمج فرعون لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓」
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𖤍 𝗗𝙀𝗩 𝗔𝗦𝙏𝙊𝙍𝙊𝗞𝗦 𖤍', url="t.me/DEV_FRAWN"}}, 
+{{text = '𝙳𝙴𝚅 𝙵𝚁𝙰𝚆𝙽', url="t.me/DEV_FRAWN"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -5864,7 +5864,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1967887608) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مطور  السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مالك السورس عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
@@ -5982,7 +5982,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مبرمج السورس
 return false 
 end
 if tonumber(userid) == tonumber(1967887608) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مطور  السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مالك السورس عام")
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
@@ -6039,7 +6039,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مبرمج السورس
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1967887608) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مطور  السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مالك السورس عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
@@ -6156,7 +6156,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مبرمج السورس
 return false 
 end
 if tonumber(userid) == tonumber(1967887608) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مطور  السورس عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مالك السورس عام")
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
