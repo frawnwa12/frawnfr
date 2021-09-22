@@ -357,7 +357,7 @@ return var
 end 
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(SUDO) then  
-var = 'مبرمج السورس '
+var = 'المبرمج فرعون الكبير  '
 elseif tonumber(user_id) == tonumber(1967887608) then
 var = 'مالك السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
@@ -1997,7 +1997,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendmessage?chat_id=' .. msg.sender_user_id_ .. '&text=' ..token) 
 send(msg.chat_id_, msg.id_,' ') 
 end
-if text == 'مبرمج السورس' and Debn(msg) then
+if text == 'المبرمج فرعون الكبير ' and Debn(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
 「المبرمج فرعون لو حابب تتواصل معاه
