@@ -3719,11 +3719,11 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 local Text = [[
-[𝙳𝙴𝚅 𝙵𝚁𝙰𝚆𝙽](https://t.me/DEV_FRAWN)
-
-[𝙳𝙴𝚅 𝙷𝙰𝚁𝙱𝙾𝙺𝙰𝙰𝙸](https://t.me/DvH7rboka_A3)
-
-[𝚂𝙾𝚄𝚁𝙲𝙴 𝙵𝚁𝙰𝚆𝙽](https://t.me/source_frawn)
+┍━━━━━☞[𝙁𝙍𝘼𝙒𝙉](https://t.me/DEV_FRAWN)☜━━━━━┑
+[𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝙵𝚁𝙰𝚆𝙽
+𝚃𝙷𝙴𝚂𝚃𝚁𝙾𝙽𝙶𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙸𝙽
+𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼](https://t.me/source_frawn) 
+┕━━━━━☞[𝙁𝙍𝘼𝙒𝙉](https://t.me/DEV_FRAWN)☜━━━━━┙
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -3733,7 +3733,7 @@ keyboard.inline_keyboard = {
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./Banda.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/source_frawn&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/source_frawn/167&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 
