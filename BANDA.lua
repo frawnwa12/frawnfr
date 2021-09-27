@@ -13310,7 +13310,7 @@ local textt = ' 🌚💘 رتبتك هي  '⤌  ..Rutba(msg.sender_user_id_,msg.
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' الـمـطـور ', url="http://t.me/"..sudos.UserName},
+{text = ' الـمـطـور ',url="http://t.me/"..sudos.UserName},
 },
 {
 {text = ' اضف البوت الي مجموعتك '  ,url="t.me/"..dofile("./Banda.lua").botUserName.."?startgroup=start"},
