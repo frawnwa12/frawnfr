@@ -13305,12 +13305,10 @@ end
 end
 tdcli_function ({ID = "SearchPublicChat",username_ = username}, start_function, nil)
 end
-
-if text == ' رتبتي'  then
+if text ==  'رتبتي'  then
 local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
 send(msg.chat_id_, msg.id_,' 🌚💘 رتبتك هي  ⤌'..rtp)
 end
-
 if text == 'انا مين' and SudoBot(msg) then
 local msg_id = msg.id_/2097152/0.5  
 local textt = '[انت مطوري نور عنيا🥺🤍](t.me/source_frawn)'
