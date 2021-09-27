@@ -13306,7 +13306,7 @@ end
 
 if text == ' رتبتي ' then
 local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
-send(msg.chat_id_, msg.id_, ' 🌚💘 رتبتك هي ⤌'  ..rtp)
+send(msg.chat_id_, msg.id_,' 🌚💘 رتبتك هي ⤌'..rtp)
 end
 
 if text == 'انا مين' and SudoBot(msg) then
