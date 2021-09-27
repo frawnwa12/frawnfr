@@ -177,7 +177,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,970574026,1967887608,2026498957,1885706669}   
+sudo_users = {SUDO,1970574026,1967887608}   
 function SudoBot(msg)  
 local BANDA = false  
 for k,v in pairs(sudo_users) do  
@@ -314,9 +314,9 @@ if tonumber(user_id) == tonumber(1970574026) then
 var = true 
 elseif tonumber(user_id) == tonumber(1967887608) then
 var = true  
-elseif tonumber(user_id) == tonumber(2026498957) then
+elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
-elseif tonumber(user_id) == tonumber(1885706669) then
+elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true
@@ -360,10 +360,6 @@ if tonumber(user_id) == tonumber(1970574026) then
 var = 'المبرمج فرعون الكبير  '
 elseif tonumber(user_id) == tonumber(1967887608) then
 var = 'مالك السورس'
-elseif tonumber(user_id) == tonumber(2026498957) then
-var = ' المبرمج افلاين'
-elseif tonumber(user_id) == tonumber(1885706669) then
-var =  'المبرمج زغلل'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
@@ -5868,12 +5864,12 @@ if tonumber(result.sender_user_id_) == tonumber(1967887608) then
 send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مالك السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(2026498957) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج افلاين منفعش يكسمك عام")
+if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المطور الاساسي مينفعش يكسمك عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1885706669) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج زغلل عام")
+if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج فرعون الكبير عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
@@ -5930,12 +5926,12 @@ if result.id_ == tonumber(1967887608) then
 send(msg.chat_id_, msg.id_, "  لا يمكنك حظر مالك السورس \n")
 return false 
 end
-if result.id_ == tonumber(2026498957) then
-send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر المبرمج افلاين \n")
+if result.id_ == tonumber(SUDO) then
+send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر المطور الاساسي مينفعش يكسمك \n")
 return false 
 end
-if result.id_ == tonumber(1885706669) then
-send(msg.chat_id_, msg.id_, "  لا يمكنك حظر المبرمج زغلل \n")
+if result.id_ == tonumber(SUDO) then
+send(msg.chat_id_, msg.id_, "  لا يمكنك حظر المبرمج فرعون الكبير \n")
 return false 
 end
 if result.id_ == tonumber(SUDO) then
@@ -5986,12 +5982,12 @@ if tonumber(userid) == tonumber(1967887608) then
 send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مالك السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(2026498957) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج افلاين  عام")
+if tonumber(userid) == tonumber(SUDO) then  
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المطور الاساسي مينفعش يكسمك عام")
 return false 
 end
-if tonumber(userid) == tonumber(1885706669) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع المبرمج زغلل عام")
+if tonumber(userid) == tonumber(SUDO) then  
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظرالمبرمج فرعون الكبير عام")
 return false 
 end
 if tonumber(userid) == tonumber(SUDU) then  
@@ -6043,12 +6039,12 @@ if tonumber(result.sender_user_id_) == tonumber(1967887608) then
 send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مالك السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(2026498957) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المبرمج افلاين عام")
+if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المطور الاساسي مينفعش يكسمك عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1885706669) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج زغلل عام")
+if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج فرعون الكبير عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(SUDO) then  
@@ -6104,12 +6100,12 @@ if result.id_ == tonumber(1967887608) then
 send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم مالك السورس \n")
 return false 
 end
-if result.id_ == tonumber(2026498957) then
-send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم المبرمج افلابن  \n")
+if result.id_ == tonumber(SUDO) then
+send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم المطور الاساسي مينفعش يكسمك  \n")
 return false 
 end
-if result.id_ == tonumber(1885706669) then
-send(msg.chat_id_, msg.id_, "  لا يمكنك حظر المبرمج زغلل \n")
+if result.id_ == tonumber(SUDO) then
+send(msg.chat_id_, msg.id_, "  لا يمكنك حظر المبرمج فرعون الكبير \n")
 return false 
 end
 if result.id_ == tonumber(SUDO) then
@@ -6160,12 +6156,12 @@ if tonumber(userid) == tonumber(1967887608) then
 send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مالك السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(2026498957) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المبرمج افلاين عام")
+if tonumber(userid) == tonumber(SUDO) then  
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المطور الاساسي مينفعش يكسمك عام")
 return false 
 end
-if tonumber(userid) == tonumber(1885706669) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج زغلل عام")
+if tonumber(userid) == tonumber(SUDO) then  
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج فرعون الكبير عام")
 return false 
 end
 if tonumber(userid) == tonumber(SUDO) then  
@@ -13304,9 +13300,26 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = username}, start_function, nil)
 end
 
-if text == ' رتبتي ' then
-local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
-send(msg.chat_id_, msg.id_,' 🌚💘 رتبتك هي ⤌'..rtp)
+if text == "رتبتي" then
+local msg_id = msg.id_/2097152/0.5  
+local textt = ' 🌚💘 رتبتك هي  ⤌ '..Rutba(msg.sender_user_id_,msg.chat_id_)
+keyboard = {} 
+keyboard.inline_keyboard = {
+{
+{text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
+},
+{
+{text = 'اضف البوت الي مجموعتك ' ,url="t.me/"..dofile("./Banda.lua").botUserName.."?startgroup=start"},
+},
+}
+local function getpro(extra, result, success) 
+if result.photos_[0] then 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo='..result.photos_[0].sizes_[1].photo_.persistent_id_..'&caption=' .. URL.escape(textt).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+else 
+send(msg.chat_id_, msg.id_,textt, 1, 'md') 
+end 
+end 
+tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = msg.sender_user_id_, offset_ = 0, limit_ = 1 }, getpro, nil) 
 end
 
 if text == 'انا مين' and SudoBot(msg) then
