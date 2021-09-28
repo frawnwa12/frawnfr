@@ -361,7 +361,7 @@ var = 'المبرمج فرعون الكبير  '
 elseif tonumber(user_id) == tonumber(1967887608) then
 var = 'مالك السورس'
 elseif tonumber(user_id) == tonumber(2026498957) then
-var =  'المبرمج افلاين'
+var =  'أؤفــــــــلـأيــن ألــــكــــبـيـر'
 elseif tonumber(user_id) == tonumber(1885706669) then
 var =  'المبرمج زغلل'
 elseif tonumber(user_id) == tonumber(SUDO) then
@@ -5871,7 +5871,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مالك السورس �
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(2026498957) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج افلاين عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر أؤفــــــــلـأيــن ألــــكــــبـيـر عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1885706669) then  
@@ -5933,7 +5933,7 @@ send(msg.chat_id_, msg.id_, "  لا يمكنك حظر مالك السورس \n")
 return false 
 end
 if result.id_ == tonumber(2026498957) then
-send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر المبرمج افلاين \n")
+send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر أؤفــــــــلـأيــن ألــــكــــبـيـر \n")
 return false 
 end
 if result.id_ == tonumber(1885706669) then
@@ -5989,7 +5989,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر مالك السورس �
 return false 
 end
 if tonumber(userid) == tonumber(2026498957) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر المبرمج افلاين عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع حظر أؤفــــــــلـأيــن ألــــكــــبـيـر عام")
 return false 
 end
 if tonumber(userid) == tonumber(1885706669) then  
@@ -6046,7 +6046,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مالك السورس �
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(2026498957) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المبرمج افلاين عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم أؤفــــــــلـأيــن ألــــكــــبـيـر عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1885706669) then  
@@ -6107,7 +6107,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم مالك السورس \
 return false 
 end
 if result.id_ == tonumber(2026498957) then
-send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم المبرمج افلاين \n")
+send(msg.chat_id_, msg.id_, " ◍ لا يمكنك كتم أؤفــــــــلـأيــن ألــــكــــبـيـر \n")
 return false 
 end
 if result.id_ == tonumber(1885706669) then
@@ -6163,7 +6163,7 @@ send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم مالك السورس �
 return false 
 end
 if tonumber(userid) == tonumber(2026498957) then  
-send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم المبرمج افلاين عام")
+send(msg.chat_id_, msg.id_, " ◍ لا تسطيع كتم أؤفــــــــلـأيــن ألــــكــــبـيـر عام")
 return false 
 end
 if tonumber(userid) == tonumber(1885706669) then  
@@ -13307,8 +13307,9 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, start_function, 
 end
 if text ==  'رتبتي'  then
 local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
-send(msg.chat_id_, msg.id_,' 🌚💘 رتبتك هي  ⤌'..rtp)
+send(msg.chat_id_, msg.id_,'🌏 رتبتك في البوت ←'..rtp)
 end
+
 if text == 'انا مين' and SudoBot(msg) then
 local msg_id = msg.id_/2097152/0.5  
 local textt = '[انت مطوري نور عنيا🥺🤍](t.me/source_frawn)'
